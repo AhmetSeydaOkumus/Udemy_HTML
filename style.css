@@ -1,0 +1,32 @@
+*{background-color: rgb(210, 30, 90);}
+h1{
+    color:lightcoral;
+    text-align: central;
+}
+a{
+    background-color: rgb(178, 32, 122); 
+    text-decoration: none;}
+
+.formbasligi1 {
+    color: blue;
+}
+
+.haliBuyuklugu {
+    color: rgb(0, 139, 69);
+    text-decoration: none;
+    list-style-type: "🪗"
+}
+.haliBuyuklugu1 li {
+    color: rgb(139, 51, 0);
+    text-decoration: none;
+    list-style-image: url(facebook.png);
+}
+.haliBuyuklugu1 ul {
+    color: rgb(83, 0, 139);
+    text-decoration: none;
+    list-style-type: "🪗" /*ul lerin rengi degisiyor ama ikon konulmuyor */
+}
+/* etkisizlestirme komutu */
+
+/* h1.formbasligi1 dersem class ismi formbasligi olan h1 taglarina bakar, 
+yani h2 taginda ben bir id atamasini da formbasligi1 yapmis olsam da ona hitap etmez*/ 

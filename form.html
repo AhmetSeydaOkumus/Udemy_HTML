@@ -1,0 +1,96 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1 class="formbasligi1">Formu Doldurmak Zorunludur</h1>
+
+    <form action="www.haliyikama.com"> <!--submit komutuyla nereye gonderelecegi buraya site adresi olarak yazilmali biz burada www.haliyikama.com diye yazdik-->
+
+<input type="text" name="First Name" value="Doldurunuz"> 
+<br>
+<div>
+<label for="name"> adiniz </label>
+<input type="password" id="name">
+</div> 
+
+<div>
+<label for="hali adi"> haliniz </label>
+<input type="hidden">
+</div> 
+
+<div>
+<label for="hali tipi"> hali tipi </label>
+<input type="checkbox" name="antik hali" value="antik hali"> antik hali
+<input type="checkbox" name="kucuk hali" value="kucuk hali"> kucuk hali
+<input type="checkbox" name="buyuk hali hali" value="buyuk hali"> buyuk hali
+<input type="checkbox" name="modern hali" value="modern hali"> modern hali
+</div> 
+
+<div>
+<label for="hali buyuklugu"> Hali Buyuklugu </label>
+<input type="radio" name="hali buyuklugu" value="kucuk"> kucuk
+<input type="radio" name="hali buyuklugu" value="buyuk"> buyuk
+</div> 
+
+<div>
+<label for="hali adresi"> hali adresi </label>
+<input type="text" value="gerekli alan">
+</div> 
+<div>
+<label for="hali adi"> halinizin resmi </label>
+<input type="file">
+</div> 
+<br>
+<div>
+ 
+    <label for="yorumlar"> yorumlariniz</label>
+  <br>   <textarea name="yorumlar"> yorumlar </textarea>
+    </div> 
+
+
+    <div>
+        <label for="halinin gidecegi sehir"> Halinin gidecegi sehri seciniz </label>
+        <select name="adresi" id="halinin gidecegi sehir"> 
+            <option value="Ankara"> Ankara </option>
+            <option value="Izmir"> Izmir </option>
+            <option value="Istanbul"> Istanbul </option>
+        </select>
+
+
+
+    </div>
+
+<input type="submit" value="gonder">
+<input type="reset" value="sifirla" disabled>
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,67 @@
+bunlar head kisminda:
+
+
+<tittle>hali yikama fabrikasi</tittle>
+<meta name="title" content="Hali Yikama">
+<meta name="keywords" content="hali, yikama,yuksek kalite">
+<meta name="description" content="ustun hali yikama performansi">
+
+Body kisminda:
+<br>:satir basi yapar
+<p></p>: paragarf yapar
+<p style="color: aqua;"> paragarfin rengini belirler.
+<h1></h1>: arama motorlari icin baslik yapar, sayi olarak 6 ya kadar gidebilir.
+
+basligin altina cizgi eklemek istersen, basligin altina eklenir:
+<hr> 
+
+Eger basligin rengini belirlemek istersen, ilk basta <h2> kullanilir. 
+Exm:
+<h1><p style="color: red;">loremdsfgdfgdfg.</p></h1>
+
+yaziyi koyulastirma:
+<b>Loremsdfsdfsdf</b>
+<strong>Loremsdfsdfsdf</strong>
+
+yaziyi italiklestirme:
+<i>Loremhgfdghfg</i>
+<em>Loremhgfdghfg</em>
+
+yazinin altini cizme:
+<u>Loremsdfsdf</u>
+<ins>Loremsdfsdf</ins>
+
+ussu ifadesi icin:
+<p> Loremsdfsdvsv <sup>Loremsadfsdfsdf</sup>Loremsdfsdfsdf.</p>
+
+logaritmadaki alt ifadesi icin: 
+<p> Loremsdfsdvsv <sub>Loremsadfsdfsdf</sub>Loremsdfsdfsdf.</p>
+
+uzerini cizmek istedigimiz yazilarda:
+<p> Loremsdfsdvsv <del>Loremsadfsdfsdf</del>Loremsdfsdfsdf.</p>
+
+daha kucugun usdtunu cizmek icin small ve dell yeri farketmeksizin:
+<p> Loremsdfsdvsv <del><small>Loremsadfsdfsdf</small></del>Loremsdfsdfsdf.</p>
+
+sari boyali zemin icin:
+<p> Loremsdfsdvsv <mark>Loremsadfsdfsdf</mark>Loremsdfsdfsdf.</p>
+
+
+
+
+Sirasiz liste olustururken body bolumunde:
+<ul><li>Loremsdfsdfsdfsdf</li></ul> kullanabilirsin.
+Her <ul><li> ifadesi bir cumle basina bir simge ile sembol yapar. 
+
+Sirali liste olustururken body bolumune:
+<ol><li>Loremsdfsdfsdf</li></ol> Kullanabilirsin.
+Her <ul><li> ifadesi bir cumle basina bir sayi koyar. 
+
+Eger <ol><li> etiketinden alt alta 10 tane istiyorsan. 
+ol>li*10 ve tab tusuna basarsan olay tamamdir.
+
+<ol> </ol> etiketi altindaki herseye hitap eder. 
+Orn:
+<ol start="5"> denirse sayilar 5 ten baslayacaktir.
+<ol start="5" type="A"> denirse 5. harften baslyacaktir.
+<ol style="color: aqua;" start="5" type="A"> denirse 5. harften baslyacaktir ve rengi mavi olacaktir.
